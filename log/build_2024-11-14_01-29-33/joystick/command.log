@@ -1,0 +1,3 @@
+Invoking command in '/home/farelfebryan/finalproject_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/joystick -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/joystick
+Invoked command in '/home/farelfebryan/finalproject_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/joystick -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/joystick
+Invoking command in '/home/farelfebryan/finalproject_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/joystick -- -j8 -l8

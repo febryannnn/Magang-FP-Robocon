@@ -1,0 +1,2 @@
+[0.032s] Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+[0.094s] [100%] Built target ball_follower

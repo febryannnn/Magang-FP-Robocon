@@ -1,0 +1,89 @@
+[0.024s] Invoking command in '/home/farelfebryan/finalproject_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/src/finalproject -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/finalproject
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.269s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.587s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.720s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.777s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.783s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.792s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.870s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.873s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.955s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.991s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.044s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.055s] -- Looking for pthread.h
+[1.148s] -- Looking for pthread.h - found
+[1.148s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.248s] -- Found Threads: TRUE  
+[1.340s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.361s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.479s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.481s] -- Added test 'lint_cmake' to check CMake code style
+[1.482s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.487s] -- Added test 'xmllint' to check XML markup files
+[1.489s] -- Configuring done
+[1.494s] -- Generating done
+[1.496s] -- Build files have been written to: /home/farelfebryan/finalproject_ws/build/finalproject
+[1.513s] Invoked command in '/home/farelfebryan/finalproject_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/src/finalproject -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/finalproject
+[1.514s] Invoking command in '/home/farelfebryan/finalproject_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/finalproject -- -j8 -l8
+[1.566s] Invoked command in '/home/farelfebryan/finalproject_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/finalproject -- -j8 -l8
+[1.601s] Invoking command in '/home/farelfebryan/finalproject_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/finalproject
+[1.609s] -- Install configuration: ""
+[1.609s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/launch
+[1.609s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/launch/display.launch.py
+[1.609s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz
+[1.610s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz/navigation.rviz
+[1.610s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz/urdf_config.rviz
+[1.610s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config
+[1.610s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/teleop.yaml
+[1.610s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization
+[1.610s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization/online_async_slam.yaml
+[1.610s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization/ekf.yaml
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/nav2_params.yaml
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/worlds
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/worlds/my_world.sdf
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/lapangan.sdf
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/model.config
+[1.611s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/meshes
+[1.612s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/meshes/lapangan.dae
+[1.619s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/description
+[1.619s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/description/diff_drive_description.urdf
+[1.619s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps
+[1.619s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapku.posegraph
+[1.635s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapkuh.yaml
+[1.635s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapku.data
+[1.635s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapkuh.pgm
+[1.635s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/finalproject.dsv
+[1.635s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/finalproject.sh
+[1.635s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/package_run_dependencies/finalproject
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/parent_prefix_path/finalproject
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.sh
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.dsv
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/path.sh
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/path.dsv
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.bash
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.sh
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.zsh
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.dsv
+[1.636s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.dsv
+[1.637s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/packages/finalproject
+[1.637s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig.cmake
+[1.637s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig-version.cmake
+[1.637s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.xml
+[1.640s] Invoked command in '/home/farelfebryan/finalproject_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/finalproject

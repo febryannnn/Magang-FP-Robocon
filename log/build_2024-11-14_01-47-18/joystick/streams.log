@@ -1,0 +1,11 @@
+[0.027s] Invoking command in '/home/farelfebryan/finalproject_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/joystick -- -j8 -l8
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target joystick[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/joystick.dir/src/joystick.cpp.o[0m
+[2.509s] [01m[K/home/farelfebryan/finalproject_ws/joystick/src/joystick.cpp:[m[K In member function ‘[01m[Kvoid Joystick::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.509s] [01m[K/home/farelfebryan/finalproject_ws/joystick/src/joystick.cpp:23:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist[m[K’ was not declared in this scope
+[2.509s]    23 |         publisher->publish([01;31m[Ktwist[m[K);
+[2.509s]       |                            [01;31m[K^~~~~[m[K
+[5.021s] gmake[2]: *** [CMakeFiles/joystick.dir/build.make:76: CMakeFiles/joystick.dir/src/joystick.cpp.o] Error 1
+[5.021s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/joystick.dir/all] Error 2
+[5.021s] gmake: *** [Makefile:146: all] Error 2
+[5.024s] Invoked command in '/home/farelfebryan/finalproject_ws/build/joystick' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/joystick -- -j8 -l8

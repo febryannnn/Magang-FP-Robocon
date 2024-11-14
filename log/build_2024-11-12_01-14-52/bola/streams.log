@@ -1,0 +1,24 @@
+[0.038s] Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+[0.107s] [ 50%] Built target robot_follower
+[0.110s] [100%] Built target ball_detector
+[0.139s] Invoked command in '/home/farelfebryan/finalproject_ws/build/bola' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+[0.180s] Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/bola
+[0.191s] -- Install configuration: ""
+[0.191s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/lib/bola/ball_detector
+[0.193s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/lib/bola/robot_follower
+[0.193s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/package_run_dependencies/bola
+[0.193s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/parent_prefix_path/bola
+[0.196s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/ament_prefix_path.sh
+[0.196s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/ament_prefix_path.dsv
+[0.196s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/path.sh
+[0.196s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/path.dsv
+[0.197s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.bash
+[0.198s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.sh
+[0.198s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.zsh
+[0.200s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.dsv
+[0.200s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/package.dsv
+[0.200s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/packages/bola
+[0.200s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/cmake/bolaConfig.cmake
+[0.200s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/cmake/bolaConfig-version.cmake
+[0.200s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/package.xml
+[0.201s] Invoked command in '/home/farelfebryan/finalproject_ws/build/bola' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/bola

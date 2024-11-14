@@ -1,0 +1,10 @@
+[01m[K/home/farelfebryan/finalproject_ws/src/pid/src/pidcontrol.cpp:[m[K In member function ‘[01m[Kvoid moveTarget::pergerakanRobot(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/farelfebryan/finalproject_ws/src/pid/src/pidcontrol.cpp:32:30:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Krget_sudut[m[K’
+   32 |         double ta            [01;31m[Krget_sudut[m[K = std::atan2(target_y - posisi_robot_y, target_x - posisi_robot_x);
+      |                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/finalproject_ws/src/pid/src/pidcontrol.cpp:36:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_sudut[m[K’ was not declared in this scope
+   36 |         double selisih_sudut = [01;31m[Ktarget_sudut[m[K - sudut_sekarang;
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_target.dir/build.make:76: CMakeFiles/move_target.dir/src/pidcontrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_target.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

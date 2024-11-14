@@ -1,0 +1,10 @@
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/uninstall.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/bola_uninstall.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/ball_follower.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/test.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/edit_cache.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/rebuild_cache.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/list_install_components.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/install.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/install/local.dir
+/home/farelfebryan/finalproject_ws/build/bola/CMakeFiles/install/strip.dir

@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target joystick[0m
+[100%] Built target joystick
+-- Install configuration: ""
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/lib/joystick/joystick
+-- Set runtime path of "/home/farelfebryan/finalproject_ws/install/joystick/lib/joystick/joystick" to ""
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/ament_prefix_path.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/path.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/path.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.bash
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.zsh
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/packages/joystick
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/cmake/joystickConfig.cmake
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+-- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.xml

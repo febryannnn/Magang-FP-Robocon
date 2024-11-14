@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/joystick.dir/src/joystick.cpp.o[0m
+[01m[K/home/farelfebryan/finalproject_ws/joystick/src/joystick.cpp:[m[K In constructor ‘[01m[KJoystick::Joystick()[m[K’:
+[01m[K/home/farelfebryan/finalproject_ws/joystick/src/joystick.cpp:10:36:[m[K [01;31m[Kerror: [m[K‘[01m[KJoystickControl[m[K’ has not been declared
+   10 |             "/joy", 10, std::bind(&[01;31m[KJoystickControl[m[K::joy_callback, this, std::placeholders::_1)
+      |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joystick.dir/build.make:76: CMakeFiles/joystick.dir/src/joystick.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/joystick.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

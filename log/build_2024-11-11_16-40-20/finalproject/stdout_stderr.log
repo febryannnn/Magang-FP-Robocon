@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/farelfebryan/finalproject_ws/build/finalproject
+-- Install configuration: ""
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/launch
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/launch/display.launch.py
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz/navigation.rviz
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz/urdf_config.rviz
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/teleop.yaml
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization/online_async_slam.yaml
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization/ekf.yaml
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/nav2_params.yaml
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/worlds
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/worlds/my_world.sdf
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/lapangan.sdf
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/model.config
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/meshes
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/meshes/lapangan.dae
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/description
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/description/diff_drive_description.urdf
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapku.posegraph
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapkuh.yaml
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapku.data
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapkuh.pgm
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/finalproject.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/finalproject.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/package_run_dependencies/finalproject
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/parent_prefix_path/finalproject
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/path.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/path.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.bash
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.zsh
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/packages/finalproject
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig.cmake
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig-version.cmake
+-- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.xml

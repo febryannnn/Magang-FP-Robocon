@@ -1,0 +1,7 @@
+[0.028s] Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+[0.148s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_follower.dir/src/kejarbola.cpp.o[0m
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/ball_detector.dir/src/deteksibola.cpp.o[0m
+[9.877s] [ 75%] [32m[1mLinking CXX executable robot_follower[0m
+[10.365s] [ 75%] Built target robot_follower
+[11.130s] [100%] [32m[1mLinking CXX executable ball_detector[0m
+[12.005s] [100%] Built target ball_detector

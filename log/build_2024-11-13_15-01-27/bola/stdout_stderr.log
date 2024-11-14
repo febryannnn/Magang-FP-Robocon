@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/robot_follower.dir/src/kejarbola.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ball_detector.dir/src/deteksibola.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable robot_follower[0m
+[ 75%] Built target robot_follower
+[100%] [32m[1mLinking CXX executable ball_detector[0m
+[100%] Built target ball_detector

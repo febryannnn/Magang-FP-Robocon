@@ -1,0 +1,9 @@
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_follower.dir/all] Error 2
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ball_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

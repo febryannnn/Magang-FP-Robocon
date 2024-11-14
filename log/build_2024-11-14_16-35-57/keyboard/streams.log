@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keyboard -- -j8 -l8
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard.dir/src/keyboard.cpp.o[0m
+[4.389s] [100%] [32m[1mLinking CXX executable keyboard[0m
+[4.564s] [100%] Built target keyboard
+[4.574s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keyboard -- -j8 -l8
+[4.595s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keyboard
+[4.602s] -- Install configuration: ""
+[4.602s] -- Installing: /home/farelfebryan/finalproject_ws/install/keyboard/lib/keyboard/keyboard
+[4.603s] -- Set runtime path of "/home/farelfebryan/finalproject_ws/install/keyboard/lib/keyboard/keyboard" to ""
+[4.603s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/ament_index/resource_index/package_run_dependencies/keyboard
+[4.603s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/ament_index/resource_index/parent_prefix_path/keyboard
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/environment/ament_prefix_path.sh
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/environment/ament_prefix_path.dsv
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/environment/path.sh
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/environment/path.dsv
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/local_setup.bash
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/local_setup.sh
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/local_setup.zsh
+[4.604s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/local_setup.dsv
+[4.605s] -- Installing: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.dsv
+[4.605s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/ament_index/resource_index/packages/keyboard
+[4.605s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/cmake/keyboardConfig.cmake
+[4.605s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/cmake/keyboardConfig-version.cmake
+[4.605s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.xml
+[4.607s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keyboard

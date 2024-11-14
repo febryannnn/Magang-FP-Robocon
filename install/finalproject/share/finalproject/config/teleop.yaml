@@ -1,0 +1,6 @@
+# teleop.yaml
+axis_linear: 1       # Sumbu Y untuk maju/mundur
+scale_linear: 0.5    # Skala kecepatan linear
+axis_angular: 0      # Sumbu X untuk belok
+scale_angular: 1.0   # Skala kecepatan rotasi
+enable_button: 5     # Tombol untuk mengaktifkan pergerakan

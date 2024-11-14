@@ -1,0 +1,16 @@
+/home/farelfebryan/finalproject_ws/install/joystick/lib/joystick/joystick
+/home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+/home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/ament_prefix_path.sh
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/path.sh
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/path.dsv
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.bash
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.sh
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.zsh
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.dsv
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.dsv
+/home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/packages/joystick
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/cmake/joystickConfig.cmake
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.xml

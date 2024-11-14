@@ -1,0 +1,8 @@
+source;share/bola/hook/cmake_prefix_path.ps1
+source;share/bola/hook/cmake_prefix_path.dsv
+source;share/bola/hook/cmake_prefix_path.sh
+source;share/bola/local_setup.bash
+source;share/bola/local_setup.dsv
+source;share/bola/local_setup.ps1
+source;share/bola/local_setup.sh
+source;share/bola/local_setup.zsh

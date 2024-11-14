@@ -1,0 +1,15 @@
+[0.027s] Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target ball_follower[0m
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/ball_follower.dir/src/deteksibola.cpp.o[0m
+[3.398s] [01m[K/home/farelfebryan/finalproject_ws/src/bola/src/deteksibola.cpp:[m[K In member function ‘[01m[Kvoid BallFollower::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.398s] [01m[K/home/farelfebryan/finalproject_ws/src/bola/src/deteksibola.cpp:34:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+[3.398s]    34 |       cv::inRange(hsv, cv::Scalar(85, 100, 100), cv::Scalar[01;31m[K([m[K, 255, 255), mask);
+[3.398s]       |                                                            [01;31m[K^[m[K
+[3.398s] 
+[3.398s] [01m[K/home/farelfebryan/finalproject_ws/src/bola/src/deteksibola.cpp:34:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[3.398s]    34 |      cv::inRange(hsv, cv::Scalar(85, 100, 100), cv::Scalar([01;31m[K,[m[K 255, 255), mask);
+[3.398s]       |                                                            [01;31m[K^[m[K
+[3.398s] 
+[6.423s] gmake[2]: *** [CMakeFiles/ball_follower.dir/build.make:76: CMakeFiles/ball_follower.dir/src/deteksibola.cpp.o] Error 1
+[6.423s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ball_follower.dir/all] Error 2
+[6.424s] gmake: *** [Makefile:146: all] Error 2

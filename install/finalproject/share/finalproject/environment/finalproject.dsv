@@ -1,0 +1,2 @@
+prepend-non-duplicate;GAZEBO_MODEL_PATH;share/finalproject/models
+prepend-non-duplicate;GAZEBO_RESOURCE_PATH;share/finalproject/worlds

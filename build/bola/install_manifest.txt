@@ -1,0 +1,16 @@
+/home/farelfebryan/finalproject_ws/install/bola/lib/bola/ball_follower
+/home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/package_run_dependencies/bola
+/home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/parent_prefix_path/bola
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/ament_prefix_path.sh
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/ament_prefix_path.dsv
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/path.sh
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/path.dsv
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.bash
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.sh
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.zsh
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.dsv
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.dsv
+/home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/packages/bola
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/cmake/bolaConfig.cmake
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/cmake/bolaConfig-version.cmake
+/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.xml

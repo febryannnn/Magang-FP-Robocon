@@ -1,0 +1,9 @@
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/uninstall.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/finalproject_uninstall.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/test.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/edit_cache.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/rebuild_cache.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/list_install_components.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/install.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/install/local.dir
+/home/farelfebryan/finalproject_ws/build/finalproject/CMakeFiles/install/strip.dir

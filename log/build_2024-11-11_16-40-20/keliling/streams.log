@@ -1,0 +1,69 @@
+[0.023s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/src/keliling -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/keliling
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.380s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.393s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.396s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.600s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.720s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.788s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.793s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.807s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.934s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.939s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.058s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.097s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.168s] -- Looking for pthread.h
+[1.266s] -- Looking for pthread.h - found
+[1.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.367s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.368s] -- Found Threads: TRUE  
+[1.458s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.603s] -- Configured cppcheck include dirs: 
+[1.603s] -- Configured cppcheck exclude dirs and/or files: 
+[1.604s] -- Added test 'lint_cmake' to check CMake code style
+[1.605s] -- Added test 'uncrustify' to check C / C++ code style
+[1.605s] -- Configured uncrustify additional arguments: 
+[1.607s] -- Added test 'xmllint' to check XML markup files
+[1.608s] -- Configuring done
+[1.623s] -- Generating done
+[1.624s] -- Build files have been written to: /home/farelfebryan/finalproject_ws/build/keliling
+[1.655s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/src/keliling -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/keliling
+[1.656s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[1.711s] [ 50%] [32mBuilding CXX object CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o[0m
+[7.144s] [100%] [32m[1mLinking CXX executable kell_lapangan[0m
+[7.405s] [100%] Built target kell_lapangan
+[7.420s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[7.452s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keliling
+[7.462s] -- Install configuration: ""
+[7.462s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/lib/keliling/kell_lapangan
+[7.463s] -- Set runtime path of "/home/farelfebryan/finalproject_ws/install/keliling/lib/keliling/kell_lapangan" to ""
+[7.463s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/package_run_dependencies/keliling
+[7.464s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/parent_prefix_path/keliling
+[7.464s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/ament_prefix_path.sh
+[7.464s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/ament_prefix_path.dsv
+[7.464s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/path.sh
+[7.465s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/path.dsv
+[7.465s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.bash
+[7.465s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.sh
+[7.465s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.zsh
+[7.466s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.dsv
+[7.466s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.dsv
+[7.466s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/packages/keliling
+[7.466s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/cmake/kelilingConfig.cmake
+[7.467s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/cmake/kelilingConfig-version.cmake
+[7.467s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.xml
+[7.470s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keliling

@@ -1,0 +1,20 @@
+[ 50%] Built target robot_follower
+[100%] Built target ball_detector
+-- Install configuration: ""
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/lib/bola/ball_detector
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/lib/bola/robot_follower
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/package_run_dependencies/bola
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/parent_prefix_path/bola
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/ament_prefix_path.sh
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/path.sh
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/environment/path.dsv
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.bash
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.sh
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.zsh
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/local_setup.dsv
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/package.dsv
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/ament_index/resource_index/packages/bola
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/cmake/bolaConfig.cmake
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/cmake/bolaConfig-version.cmake
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/bola/share/bola/package.xml

@@ -1,0 +1,26 @@
+[0.029s] Invoking command in '/home/farelfebryan/finalproject_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/joystick -- -j8 -l8
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target joystick[0m
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/joystick.dir/src/joystick.cpp.o[0m
+[9.715s] [100%] [32m[1mLinking CXX executable joystick[0m
+[10.121s] [100%] Built target joystick
+[10.130s] Invoked command in '/home/farelfebryan/finalproject_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/joystick -- -j8 -l8
+[10.152s] Invoking command in '/home/farelfebryan/finalproject_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/joystick
+[10.159s] -- Install configuration: ""
+[10.159s] -- Installing: /home/farelfebryan/finalproject_ws/install/joystick/lib/joystick/joystick
+[10.164s] -- Set runtime path of "/home/farelfebryan/finalproject_ws/install/joystick/lib/joystick/joystick" to ""
+[10.164s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/package_run_dependencies/joystick
+[10.164s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/parent_prefix_path/joystick
+[10.164s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/ament_prefix_path.sh
+[10.164s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/ament_prefix_path.dsv
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/path.sh
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/environment/path.dsv
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.bash
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.sh
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.zsh
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/local_setup.dsv
+[10.165s] -- Installing: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.dsv
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/ament_index/resource_index/packages/joystick
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/cmake/joystickConfig.cmake
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/cmake/joystickConfig-version.cmake
+[10.165s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.xml
+[10.167s] Invoked command in '/home/farelfebryan/finalproject_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/joystick

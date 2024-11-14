@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[0.085s] [100%] Built target kell_lapangan
+[0.100s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[0.133s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keliling
+[0.142s] -- Install configuration: ""
+[0.143s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/lib/keliling/kell_lapangan
+[0.144s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/package_run_dependencies/keliling
+[0.144s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/parent_prefix_path/keliling
+[0.144s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/ament_prefix_path.sh
+[0.144s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/ament_prefix_path.dsv
+[0.144s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/path.sh
+[0.145s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/path.dsv
+[0.145s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.bash
+[0.145s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.sh
+[0.145s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.zsh
+[0.145s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.dsv
+[0.146s] -- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.dsv
+[0.148s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/packages/keliling
+[0.149s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/cmake/kelilingConfig.cmake
+[0.149s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/cmake/kelilingConfig-version.cmake
+[0.149s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.xml
+[0.150s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keliling

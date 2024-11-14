@@ -1,0 +1,12 @@
+[01m[K/home/farelfebryan/finalproject_ws/src/bola/src/deteksibola.cpp:[m[K In member function ‘[01m[Kvoid BallFollower::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/farelfebryan/finalproject_ws/src/bola/src/deteksibola.cpp:34:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   34 |       cv::inRange(hsv, cv::Scalar(85, 100, 100), cv::Scalar[01;31m[K([m[K, 255, 255), mask);
+      |                                                            [01;31m[K^[m[K
+
+[01m[K/home/farelfebryan/finalproject_ws/src/bola/src/deteksibola.cpp:34:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   34 |      cv::inRange(hsv, cv::Scalar(85, 100, 100), cv::Scalar([01;31m[K,[m[K 255, 255), mask);
+      |                                                            [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/ball_follower.dir/build.make:76: CMakeFiles/ball_follower.dir/src/deteksibola.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ball_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

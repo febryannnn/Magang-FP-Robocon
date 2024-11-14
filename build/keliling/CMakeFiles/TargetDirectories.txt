@@ -1,0 +1,10 @@
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/uninstall.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/keliling_uninstall.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/kell_lapangan.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/test.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/edit_cache.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/rebuild_cache.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/list_install_components.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/install.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/install/local.dir
+/home/farelfebryan/finalproject_ws/build/keliling/CMakeFiles/install/strip.dir

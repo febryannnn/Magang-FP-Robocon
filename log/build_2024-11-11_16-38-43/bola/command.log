@@ -1,0 +1,4 @@
+Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/src/bola -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/bola
+Invoked command in '/home/farelfebryan/finalproject_ws/build/bola' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/farelfebryan/finalproject_ws/src/bola -DCMAKE_INSTALL_PREFIX=/home/farelfebryan/finalproject_ws/install/bola
+Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+Invoked command in '/home/farelfebryan/finalproject_ws/build/bola' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8

@@ -1,0 +1,8 @@
+source;share/keliling/hook/cmake_prefix_path.ps1
+source;share/keliling/hook/cmake_prefix_path.dsv
+source;share/keliling/hook/cmake_prefix_path.sh
+source;share/keliling/local_setup.bash
+source;share/keliling/local_setup.dsv
+source;share/keliling/local_setup.ps1
+source;share/keliling/local_setup.sh
+source;share/keliling/local_setup.zsh
