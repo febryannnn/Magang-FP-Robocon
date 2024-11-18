@@ -1,0 +1,25 @@
+[0.029s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target kell_lapangan[0m
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o[0m
+[2.704s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:[m[K In constructor ‘[01m[KkellLapangan::kellLapangan()[m[K’:
+[2.704s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_x_1[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_x_2[m[K’?
+[2.704s]    18 |         [01;31m[Ktarget_x_1[m[K = -7.0;
+[2.704s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.704s]       |         [32m[Ktarget_x_2[m[K
+[2.709s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_y_1[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_y_2[m[K’?
+[2.709s]    19 |         [01;31m[Ktarget_y_1[m[K = 3.0;
+[2.709s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.709s]       |         [32m[Ktarget_y_2[m[K
+[2.720s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:[m[K In member function ‘[01m[Kvoid kellLapangan::pergerakanRobot(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.720s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:49:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_x_1[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_x_2[m[K’?
+[2.720s]    49 |         double distance_1 = std::sqrt(std::pow([01;31m[Ktarget_x_1[m[K - posisi_robot_x_1, 2) + std::pow(target_y_1 - posisi_robot_y_1, 2));
+[2.720s]       |                                                [01;31m[K^~~~~~~~~~[m[K
+[2.720s]       |                                                [32m[Ktarget_x_2[m[K
+[2.725s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:49:93:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_y_1[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_y_2[m[K’?
+[2.725s]    49 | qrt(std::pow(target_x_1 - posisi_robot_x_1, 2) + std::pow([01;31m[Ktarget_y_1[m[K - posisi_robot_y_1, 2));
+[2.725s]       |                                                           [01;31m[K^~~~~~~~~~[m[K
+[2.725s]       |                                                           [32m[Ktarget_y_2[m[K
+[5.406s] gmake[2]: *** [CMakeFiles/kell_lapangan.dir/build.make:76: CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o] Error 1
+[5.406s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kell_lapangan.dir/all] Error 2
+[5.406s] gmake: *** [Makefile:146: all] Error 2
+[5.410s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8

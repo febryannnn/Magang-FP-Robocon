@@ -1,0 +1,48 @@
+[0.029s] Invoking command in '/home/farelfebryan/finalproject_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/finalproject -- -j8 -l8
+[0.077s] Invoked command in '/home/farelfebryan/finalproject_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/finalproject -- -j8 -l8
+[0.114s] Invoking command in '/home/farelfebryan/finalproject_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/finalproject
+[0.125s] -- Install configuration: ""
+[0.125s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/launch
+[0.126s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/launch/display.launch.py
+[0.126s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz
+[0.126s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz/navigation.rviz
+[0.126s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/rviz/urdf_config.rviz
+[0.126s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/teleop.yaml
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization/online_async_slam.yaml
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/localization/ekf.yaml
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/config/nav2_params.yaml
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/worlds
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/worlds/my_world.sdf
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models
+[0.127s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan
+[0.128s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/lapangan.sdf
+[0.128s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/model.config
+[0.128s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/meshes
+[0.128s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/models/lapangan/meshes/lapangan.dae
+[0.128s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/description
+[0.129s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/description/diff_drive_description.urdf
+[0.129s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps
+[0.129s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapku.posegraph
+[0.129s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapkuh.yaml
+[0.129s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapku.data
+[0.129s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/maps/mapkuh.pgm
+[0.130s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/finalproject.dsv
+[0.130s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/finalproject.sh
+[0.130s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/package_run_dependencies/finalproject
+[0.130s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/parent_prefix_path/finalproject
+[0.130s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/path.sh
+[0.132s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/environment/path.dsv
+[0.132s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.bash
+[0.133s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.sh
+[0.133s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.zsh
+[0.134s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/local_setup.dsv
+[0.134s] -- Installing: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.dsv
+[0.134s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/ament_index/resource_index/packages/finalproject
+[0.134s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig.cmake
+[0.134s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig-version.cmake
+[0.134s] -- Up-to-date: /home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.xml
+[0.136s] Invoked command in '/home/farelfebryan/finalproject_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/finalproject

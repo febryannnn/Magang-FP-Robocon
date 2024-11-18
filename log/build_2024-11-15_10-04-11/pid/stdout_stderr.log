@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/move_target.dir/src/pidcontrol.cpp.o[0m
+[01m[K/home/farelfebryan/finalproject_ws/src/pid/src/pidcontrol.cpp:[m[K In member function ‘[01m[Kvoid moveTarget::pergerakanRobot(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/farelfebryan/finalproject_ws/src/pid/src/pidcontrol.cpp:32:38:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   32 |         double sudut_sekarang = tf2::[01;31m[KgetYaw[m[K(msg->pose.pose.orientation);
+      |                                      [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_target.dir/build.make:76: CMakeFiles/move_target.dir/src/pidcontrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_target.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

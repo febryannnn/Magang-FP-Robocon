@@ -1,0 +1,459 @@
+[0.622s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.622s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c6306038700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c63061412d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c63061412d0>>)
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.866s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/farelfebryan/finalproject_ws'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(joystick) by extension 'ros'
+[0.884s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick' with type 'ros.ament_cmake' and name 'joystick'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extension 'colcon_meta'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extensions ['ros']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/bola) by extension 'ros'
+[0.886s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bola' with type 'ros.ament_cmake' and name 'bola'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extensions ['colcon_pkg']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/finalproject) by extension 'ros'
+[0.887s] DEBUG:colcon.colcon_core.package_identification:Package 'src/finalproject' with type 'ros.ament_cmake' and name 'finalproject'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extension 'ignore'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extension 'ignore_ament_install'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extension 'colcon_pkg'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extensions ['colcon_meta']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extension 'colcon_meta'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extensions ['ros']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/keliling) by extension 'ros'
+[0.889s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keliling' with type 'ros.ament_cmake' and name 'keliling'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'ignore'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'ignore_ament_install'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['colcon_pkg']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['colcon_meta']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'colcon_meta'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'ros'
+[0.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard' with type 'ros.ament_cmake' and name 'keyboard'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['colcon_meta']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid) by extension 'ros'
+[0.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid' with type 'ros.ament_cmake' and name 'pid'
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.932s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/farelfebryan/workspace/install
+[0.933s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'cmake_target' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'cmake_clean_cache' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'cmake_clean_first' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'cmake_force_configure' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'ament_cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'catkin_cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'bola' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.980s] DEBUG:colcon.colcon_core.verb:Building package 'bola' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farelfebryan/finalproject_ws/build/bola', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farelfebryan/finalproject_ws/install/bola', 'merge_install': False, 'path': '/home/farelfebryan/finalproject_ws/src/bola', 'symlink_install': False, 'test_result_base': None}
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'cmake_target' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'cmake_clean_cache' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'cmake_clean_first' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'cmake_force_configure' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'ament_cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'catkin_cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'finalproject' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.980s] DEBUG:colcon.colcon_core.verb:Building package 'finalproject' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farelfebryan/finalproject_ws/build/finalproject', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farelfebryan/finalproject_ws/install/finalproject', 'merge_install': False, 'path': '/home/farelfebryan/finalproject_ws/src/finalproject', 'symlink_install': False, 'test_result_base': None}
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_first' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_force_configure' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'ament_cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.981s] DEBUG:colcon.colcon_core.verb:Building package 'joystick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farelfebryan/finalproject_ws/build/joystick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farelfebryan/finalproject_ws/install/joystick', 'merge_install': False, 'path': '/home/farelfebryan/finalproject_ws/joystick', 'symlink_install': False, 'test_result_base': None}
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'cmake_target' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'cmake_clean_cache' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'cmake_clean_first' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'cmake_force_configure' from command line to 'False'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'ament_cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'catkin_cmake_args' from command line to 'None'
+[0.981s] Level 5:colcon.colcon_core.verb:set package 'keliling' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.982s] DEBUG:colcon.colcon_core.verb:Building package 'keliling' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farelfebryan/finalproject_ws/build/keliling', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farelfebryan/finalproject_ws/install/keliling', 'merge_install': False, 'path': '/home/farelfebryan/finalproject_ws/src/keliling', 'symlink_install': False, 'test_result_base': None}
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.982s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farelfebryan/finalproject_ws/build/keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farelfebryan/finalproject_ws/install/keyboard', 'merge_install': False, 'path': '/home/farelfebryan/finalproject_ws/src/keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_target' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_clean_first' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'cmake_force_configure' from command line to 'False'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'ament_cmake_args' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.983s] Level 5:colcon.colcon_core.verb:set package 'pid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.983s] DEBUG:colcon.colcon_core.verb:Building package 'pid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/farelfebryan/finalproject_ws/build/pid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/farelfebryan/finalproject_ws/install/pid', 'merge_install': False, 'path': '/home/farelfebryan/finalproject_ws/src/pid', 'symlink_install': False, 'test_result_base': None}
+[0.983s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.984s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.984s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farelfebryan/finalproject_ws/src/bola' with build type 'ament_cmake'
+[0.984s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farelfebryan/finalproject_ws/src/bola'
+[0.988s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.991s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farelfebryan/finalproject_ws/src/finalproject' with build type 'ament_cmake'
+[0.991s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farelfebryan/finalproject_ws/src/finalproject'
+[0.991s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.992s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.994s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farelfebryan/finalproject_ws/joystick' with build type 'ament_cmake'
+[0.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farelfebryan/finalproject_ws/joystick'
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.998s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farelfebryan/finalproject_ws/src/keliling' with build type 'ament_cmake'
+[0.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farelfebryan/finalproject_ws/src/keliling'
+[0.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.001s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farelfebryan/finalproject_ws/src/keyboard' with build type 'ament_cmake'
+[1.001s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farelfebryan/finalproject_ws/src/keyboard'
+[1.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.004s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/farelfebryan/finalproject_ws/src/pid' with build type 'ament_cmake'
+[1.004s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/farelfebryan/finalproject_ws/src/pid'
+[1.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/finalproject -- -j8 -l8
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/joystick -- -j8 -l8
+[1.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[1.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keyboard -- -j8 -l8
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/pid -- -j8 -l8
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/finalproject -- -j8 -l8
+[1.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/finalproject
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/joystick -- -j8 -l8
+[1.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keyboard -- -j8 -l8
+[1.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(finalproject)
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/finalproject
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject' for CMake module files
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject' for CMake config files
+[1.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('finalproject', 'cmake_prefix_path')
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/hook/cmake_prefix_path.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/hook/cmake_prefix_path.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/hook/cmake_prefix_path.sh'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/bin'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/lib/pkgconfig/finalproject.pc'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/lib/python3.10/site-packages'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/bin'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.sh'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.bash'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.zsh'
+[1.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/finalproject/share/colcon-core/packages/finalproject)
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keliling
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/joystick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/joystick
+[1.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keyboard
+[1.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/bola' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/bola -- -j8 -l8
+[1.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keliling)
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling' for CMake module files
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keliling
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling' for CMake config files
+[1.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('keliling', 'cmake_prefix_path')
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/hook/cmake_prefix_path.ps1'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/hook/cmake_prefix_path.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/hook/cmake_prefix_path.sh'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/lib'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/bin'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/lib/pkgconfig/keliling.pc'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/lib/python3.10/site-packages'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/bin'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.bash'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.zsh'
+[1.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/keliling/share/colcon-core/packages/keliling)
+[1.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick)
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/joystick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/joystick
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick' for CMake module files
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick' for CMake config files
+[1.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick', 'cmake_prefix_path')
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/hook/cmake_prefix_path.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/hook/cmake_prefix_path.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/hook/cmake_prefix_path.sh'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/lib'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/bin'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/lib/pkgconfig/joystick.pc'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/lib/python3.10/site-packages'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/bin'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.sh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.bash'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.zsh'
+[1.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/joystick/share/colcon-core/packages/joystick)
+[1.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(finalproject)
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject' for CMake module files
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject' for CMake config files
+[1.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('finalproject', 'cmake_prefix_path')
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/hook/cmake_prefix_path.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/hook/cmake_prefix_path.dsv'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/hook/cmake_prefix_path.sh'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/bin'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/lib/pkgconfig/finalproject.pc'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/lib/python3.10/site-packages'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/finalproject/bin'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.bash'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/finalproject/share/finalproject/package.zsh'
+[1.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/finalproject/share/colcon-core/packages/finalproject)
+[1.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard' for CMake module files
+[1.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/keyboard
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard' for CMake config files
+[1.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/lib'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/bin'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/lib/python3.10/site-packages'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/bin'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.ps1'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.sh'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.bash'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.zsh'
+[1.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/keyboard/share/colcon-core/packages/keyboard)
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/bola': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/bola
+[1.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keliling)
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling' for CMake module files
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling' for CMake config files
+[1.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('keliling', 'cmake_prefix_path')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/hook/cmake_prefix_path.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/hook/cmake_prefix_path.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/hook/cmake_prefix_path.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/lib'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/bin'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/lib/pkgconfig/keliling.pc'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/lib/python3.10/site-packages'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keliling/bin'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.sh'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.bash'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.zsh'
+[1.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/keliling/share/colcon-core/packages/keliling)
+[1.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick)
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick' for CMake module files
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick' for CMake config files
+[1.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick', 'cmake_prefix_path')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/hook/cmake_prefix_path.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/hook/cmake_prefix_path.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/hook/cmake_prefix_path.sh'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/lib'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/bin'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/lib/pkgconfig/joystick.pc'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/lib/python3.10/site-packages'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/joystick/bin'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.sh'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/joystick/share/joystick/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/joystick/share/colcon-core/packages/joystick)
+[1.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard' for CMake module files
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard' for CMake config files
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/lib'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/bin'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/lib/python3.10/site-packages'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/keyboard/bin'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.sh'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.bash'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/keyboard/share/keyboard/package.zsh'
+[1.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/keyboard/share/colcon-core/packages/keyboard)
+[1.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bola)
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola' for CMake module files
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/bola' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/bola
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola' for CMake config files
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('bola', 'cmake_prefix_path')
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/bola/share/bola/hook/cmake_prefix_path.ps1'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/bola/share/bola/hook/cmake_prefix_path.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/bola/share/bola/hook/cmake_prefix_path.sh'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/lib'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/bin'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/lib/pkgconfig/bola.pc'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/lib/python3.10/site-packages'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/bin'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.sh'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.bash'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.zsh'
+[1.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/bola/share/colcon-core/packages/bola)
+[1.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bola)
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola' for CMake module files
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola' for CMake config files
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('bola', 'cmake_prefix_path')
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/bola/share/bola/hook/cmake_prefix_path.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/bola/share/bola/hook/cmake_prefix_path.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/bola/share/bola/hook/cmake_prefix_path.sh'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/lib'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/bin'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/lib/pkgconfig/bola.pc'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/lib/python3.10/site-packages'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/bola/bin'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.ps1'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.sh'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.bash'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/bola/share/bola/package.zsh'
+[1.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/bola/share/colcon-core/packages/bola)
+[10.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/pid -- -j8 -l8
+[10.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/farelfebryan/finalproject_ws/build/pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/pid
+[10.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid)
+[10.486s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid' for CMake module files
+[10.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/farelfebryan/finalproject_ws/build/pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/finalproject_ws/build/pid
+[10.487s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid' for CMake config files
+[10.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid', 'cmake_prefix_path')
+[10.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/pid/share/pid/hook/cmake_prefix_path.ps1'
+[10.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/pid/share/pid/hook/cmake_prefix_path.dsv'
+[10.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/pid/share/pid/hook/cmake_prefix_path.sh'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/lib'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/bin'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/lib/pkgconfig/pid.pc'
+[10.489s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/lib/python3.10/site-packages'
+[10.490s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/bin'
+[10.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.ps1'
+[10.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.dsv'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.sh'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.bash'
+[10.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.zsh'
+[10.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/pid/share/colcon-core/packages/pid)
+[10.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid)
+[10.512s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid' for CMake module files
+[10.512s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid' for CMake config files
+[10.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid', 'cmake_prefix_path')
+[10.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/pid/share/pid/hook/cmake_prefix_path.ps1'
+[10.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/farelfebryan/finalproject_ws/install/pid/share/pid/hook/cmake_prefix_path.dsv'
+[10.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/farelfebryan/finalproject_ws/install/pid/share/pid/hook/cmake_prefix_path.sh'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/lib'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/bin'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/lib/pkgconfig/pid.pc'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/lib/python3.10/site-packages'
+[10.514s] Level 1:colcon.colcon_core.environment:checking '/home/farelfebryan/finalproject_ws/install/pid/bin'
+[10.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.ps1'
+[10.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.dsv'
+[10.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.sh'
+[10.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.bash'
+[10.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/farelfebryan/finalproject_ws/install/pid/share/pid/package.zsh'
+[10.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/farelfebryan/finalproject_ws/install/pid/share/colcon-core/packages/pid)
+[10.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.517s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.523s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.537s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farelfebryan/finalproject_ws/install/local_setup.ps1'
+[10.539s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/farelfebryan/finalproject_ws/install/_local_setup_util_ps1.py'
+[10.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farelfebryan/finalproject_ws/install/setup.ps1'
+[10.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farelfebryan/finalproject_ws/install/local_setup.sh'
+[10.544s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/farelfebryan/finalproject_ws/install/_local_setup_util_sh.py'
+[10.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farelfebryan/finalproject_ws/install/setup.sh'
+[10.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farelfebryan/finalproject_ws/install/local_setup.bash'
+[10.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farelfebryan/finalproject_ws/install/setup.bash'
+[10.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/farelfebryan/finalproject_ws/install/local_setup.zsh'
+[10.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/farelfebryan/finalproject_ws/install/setup.zsh'

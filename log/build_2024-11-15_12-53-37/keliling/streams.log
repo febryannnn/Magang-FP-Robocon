@@ -1,0 +1,11 @@
+[0.027s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target kell_lapangan[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o[0m
+[2.765s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:[m[K In constructor ‘[01m[KkellLapangan::kellLapangan()[m[K’:
+[2.765s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:13:45:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KkellLapangan[m[K’ does not have any field named ‘[01m[Kcurrent_target_[m[K’
+[2.765s]    13 |     kellLapangan() : Node("kell_lapangan"), [01;31m[Kcurrent_target_[m[K(0) {
+[2.765s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.478s] gmake[2]: *** [CMakeFiles/kell_lapangan.dir/build.make:76: CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o] Error 1
+[5.478s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kell_lapangan.dir/all] Error 2
+[5.478s] gmake: *** [Makefile:146: all] Error 2
+[5.481s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8

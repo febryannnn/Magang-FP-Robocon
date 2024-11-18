@@ -13,7 +13,6 @@ public:
         RCLCPP_INFO(this->get_logger(), "gerakkan joystick sekarang!!!");
     }
 
-private:
     void joy_callback(const sensor_msgs::msg::Joy::SharedPtr message) {
         auto move = geometry_msgs::msg::Twist();
 
@@ -22,6 +21,8 @@ private:
 
         publisher->publish(move);
     }
+
+private:
 
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joySubscriber;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher;

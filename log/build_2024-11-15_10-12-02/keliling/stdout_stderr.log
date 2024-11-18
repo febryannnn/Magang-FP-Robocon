@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target kell_lapangan[0m
+[100%] Built target kell_lapangan
+-- Install configuration: ""
+-- Installing: /home/farelfebryan/finalproject_ws/install/keliling/lib/keliling/kell_lapangan
+-- Set runtime path of "/home/farelfebryan/finalproject_ws/install/keliling/lib/keliling/kell_lapangan" to ""
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/package_run_dependencies/keliling
+-- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/parent_prefix_path/keliling
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/ament_prefix_path.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/path.sh
+-- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/environment/path.dsv
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.bash
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.sh
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.zsh
+-- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/local_setup.dsv
+-- Installing: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.dsv
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/ament_index/resource_index/packages/keliling
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/cmake/kelilingConfig.cmake
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/cmake/kelilingConfig-version.cmake
+-- Up-to-date: /home/farelfebryan/finalproject_ws/install/keliling/share/keliling/package.xml

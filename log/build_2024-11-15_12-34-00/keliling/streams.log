@@ -1,0 +1,17 @@
+[0.027s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target kell_lapangan[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o[0m
+[2.691s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:[m[K In constructor ‘[01m[KkellLapangan::kellLapangan()[m[K’:
+[2.691s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:19:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K{[m[K’ token
+[2.691s]    19 |         targets_ = {{-7.0, 2.0}, {5.5, 3.0}, {5.0, -3.0} [01;31m[K{[m[K-5.0, -2.5}};
+[2.691s]       |                                                          [01;31m[K^[m[K
+[2.692s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:19:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.692s]    19 |         targets_ = [01;36m[K{[m[K{-7.0, 2.0}, {5.5, 3.0}, {5.0, -3.0} {-5.0, -2.5}};
+[2.692s]       |                    [01;36m[K^[m[K
+[2.695s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:19:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[2.695s]    19 |         targets_ = {{-7.0, 2.0}, {5.5, 3.0}, {5.0, -3.0} [01;31m[K{[m[K-5.0, -2.5}};
+[2.695s]       |                                                          [01;31m[K^[m[K
+[5.368s] gmake[2]: *** [CMakeFiles/kell_lapangan.dir/build.make:76: CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o] Error 1
+[5.369s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kell_lapangan.dir/all] Error 2
+[5.369s] gmake: *** [Makefile:146: all] Error 2
+[5.371s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8

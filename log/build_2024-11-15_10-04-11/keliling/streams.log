@@ -1,0 +1,10 @@
+[0.027s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o[0m
+[0.519s] [01m[K/home/farelfebryan/finalproject_ws/src/keliling/src/kellLapangan.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/odometry.hpp: No such file or directory
+[0.519s]     3 | #include [01;31m[K"nav_msgs/msg/odometry.hpp"[m[K
+[0.519s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.519s] compilation terminated.
+[0.522s] gmake[2]: *** [CMakeFiles/kell_lapangan.dir/build.make:76: CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o] Error 1
+[0.522s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kell_lapangan.dir/all] Error 2
+[0.522s] gmake: *** [Makefile:146: all] Error 2
+[0.524s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8

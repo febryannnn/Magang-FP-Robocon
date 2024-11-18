@@ -19,9 +19,7 @@ class moveTarget : public rclcpp::Node
         target_y = 3.0;
     }
 
-    private:
-
-        geometry_msgs::msg::Twist move;
+    geometry_msgs::msg::Twist move;
 
         void pergerakanRobot(const nav_msgs::msg::Odometry::SharedPtr msg) {
         double posisi_robot_x = msg->pose.pose.position.x;
@@ -49,9 +47,11 @@ class moveTarget : public rclcpp::Node
         publisher->publish(move);
         RCLCPP_INFO(this->get_logger(), "ROBOTT WES NYAMPEEEEEEEE.");
         rclcpp::shutdown();
-    }
-}
 
+        }
+    }
+
+    private:
 
         rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr subscriber;
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher;

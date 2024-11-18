@@ -1,0 +1,6 @@
+[0.032s] Invoking command in '/home/farelfebryan/finalproject_ws/build/keliling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target kell_lapangan[0m
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/kell_lapangan.dir/src/kellLapangan.cpp.o[0m
+[10.614s] [100%] [32m[1mLinking CXX executable kell_lapangan[0m
+[11.197s] [100%] Built target kell_lapangan
+[11.210s] Invoked command in '/home/farelfebryan/finalproject_ws/build/keliling' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/finalproject_ws/build/keliling -- -j8 -l8
